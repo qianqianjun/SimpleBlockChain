@@ -16,7 +16,6 @@ class BlockChain:
         self.chain=[]
         self.chain.append(BlockChain.publicBlock)
         #self.createBlock(previusHash="111",proof=100)
-
     def createBlock(self,previusHash:str,proof:int):
         """
         创造新的区块
